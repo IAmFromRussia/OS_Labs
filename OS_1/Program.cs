@@ -26,8 +26,7 @@ namespace Test
 				cki = Console.ReadKey();
 				Console.Write(" —> ");
 
-				
-				
+
 				var t = new Thread(() =>
 				{
 					watch.Start();
@@ -46,9 +45,8 @@ namespace Test
 				tr.Start();
 				DisplayThreadInformation(tr, program.Current, cki, watch);
 				Thread.Sleep(delay);
-				
-				watch.Stop();
 
+				watch.Stop();
 			} while (cki.Key != ConsoleKey.Escape);
 		}
 
