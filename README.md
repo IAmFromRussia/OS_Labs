@@ -1,2 +1,2 @@
 # OS_Labs
-Laboratorian works of Operation systems subjects
+Laboratorian works of Operation systems subject
